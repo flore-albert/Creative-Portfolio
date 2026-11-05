@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Portfolio créatif de Flore Albert, étudiante en BUT MMI à Castres.">
+
+    <title>Projets — Flore Albert</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/logo.png">
+
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         EN-TÊTE ET NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <!-- Identité du portfolio -->
+            <a class="brand" href="index.html">
+                Flore Albert
+                <small>Creative Portfolio · MMI</small>
+            </a>
+
+            <!-- Bouton du menu mobile -->
+            <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <!-- Liens de navigation -->
+            <nav class="nav-links">
+                <a href="../index.html">Accueil</a>
+                <a href="../a-propos.html">À propos</a>
+                <a href="../projets/index.html" class="active">Projets</a>
+                <a href="../experiences.html">Parcours</a>
+                <a href="../univers.html">Univers créatif</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+         CONTENU PRINCIPAL
+    ========================== -->
+
+    <main>
+
+        <!-- Présentation de la page -->
+        <section class="page-hero">
+            <div class="container">
+
+                <div class="eyebrow">
+                    02 / Portfolio de projets
+                </div>
+
+                <h1>
+                    Des idées,<br>
+                    <em>des réalisations.</em>
+                </h1>
+
+                <p>
+                    Une sélection de projets réalisés au lycée, en autonomie
+                    et dans le cadre de ma formation. Chaque projet est une
+                    occasion d’expérimenter et d’apprendre.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             SECTION DES PROJETS
+        ========================== -->
+
+        <section class="section">
+            <div class="container">
+
+                <!-- Filtres de catégories -->
+                <div class="filters">
+
+                    <button class="filter-btn active" data-filter="all">
+                        Tout voir
+                    </button>
+
+                    <button class="filter-btn" data-filter="web">
+                        Web &amp; code
+                    </button>
+
+                    <button class="filter-btn" data-filter="objet">
+                        Objet connecté
+                    </button>
+
+                    <button class="filter-btn" data-filter="art">
+                        Création
+                    </button>
+
+                </div>
+
+
+                <!-- Grille des cartes de projets -->
+                <div class="project-grid">
+
+                    <!-- Projet 01 : Serre connectée -->
+                    <a class="project-card reveal" data-category="objet web" href="serre-connectee.html">
+
+                        <div class="project-image">
+                            <img src="../images/banniere1.png" alt="Serre connectée">
+
+                            <span class="project-number">01</span>
+                        </div>
+
+                        <div class="project-meta">
+                            <span>Objet connecté · Web</span>
+                            <span>Projet NSI</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Bob, la serre connectée
+                        </h3>
+
+                        <p class="project-desc">
+                            Une serre intelligente pour suivre l’environnement
+                            d’une plante et automatiser son entretien.
+                        </p>
+
+                        <span class="text-link">
+                            Explorer le projet ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- Projet 02 : Site du CDI -->
+                    <a class="project-card reveal" data-category="web" href="site-cdi.html">
+
+                        <div class="project-image">
+                            <img src="../images/logo.png" alt="Site web du CDI"
+                                style="object-fit:contain; padding:50px">
+
+                            <span class="project-number">02</span>
+                        </div>
+
+                        <div class="project-meta">
+                            <span>Développement web</span>
+                            <span>Projet scolaire</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Site de recherche du CDI
+                        </h3>
+
+                        <p class="project-desc">
+                            Un site pensé pour aider les élèves à trouver
+                            plus facilement des ouvrages au CDI.
+                        </p>
+
+                        <span class="text-link">
+                            Explorer le projet ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- Projet 03 : Carnet artistique -->
+                    <a class="project-card reveal" data-category="art" href="carnet-artistique.html">
+
+                        <div class="project-image">
+                            <img src="../images/couverture_carnet.jpg" alt="Carnet d'arts plastiques">
+                        </div>
+
+                        <div class="project-meta">
+                            <span>Arts plastiques · Édition</span>
+                            <span>Personnel</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Carnet d’exploration artistique
+                        </h3>
+
+                        <p class="project-desc">
+                            Recherches, essais plastiques et expérimentations
+                            autour de l’image.
+                        </p>
+
+                        <span class="text-link">
+                            Voir le carnet ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- Projet 04 : Expérimentations visuelles -->
+                    <a class="project-card reveal" data-category="art" href="experimentations-visuelles.html">
+
+                        <div class="project-image">
+                            <img src="../images/coucher_de_soleil.jpg" alt="Peinture de coucher de soleil">
+                        </div>
+
+                        <div class="project-meta">
+                            <span>Peinture · Image</span>
+                            <span>Arts plastiques</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Expérimentations visuelles
+                        </h3>
+
+                        <p class="project-desc">
+                            Peinture, photographie et recherche de compositions
+                            personnelles.
+                        </p>
+
+                        <span class="text-link">
+                            En savoir plus ↗
+                        </span>
+
+                    </a>
+
+                    <!-- Projet 05 : Création audiovisuelle -->
+                    <a class="project-card reveal" data-category="art" href="creation-audiovisuelle.html">
+                        <div class="project-image">
+                            <video muted playsinline preload="metadata" src="../videos/1747899216_Flore_Ainhoa_Audrey_compressed.mp4" style="width:100%;height:100%;object-fit:cover"></video>
+                            <span class="project-number">05</span>
+                        </div>
+                        <div class="project-meta">
+                            <span>Audiovisuel · Vidéo</span>
+                            <span>Collectif</span>
+                        </div>
+                        <h3 class="project-title">Création audiovisuelle</h3>
+                        <p class="project-desc">Une réalisation collective pour expérimenter le récit par l’image animée.</p>
+                        <span class="text-link">Explorer le projet ↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIED DE PAGE
+    ========================== -->
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <!-- Message de conclusion -->
+                <div>
+                    <div class="eyebrow" style="color:#a9bfd0">
+                        On crée quelque chose ?
+                    </div>
+
+                    <div class="footer-title">
+                        Les bonnes idées<br>
+                        <em>commencent ici.</em>
+                    </div>
+                </div>
+
+                <!-- Liens du pied de page -->
+                <div class="footer-links">
+                    <a href="../index.html">Accueil</a>
+                    <a href="../a-propos.html">À propos</a>
+                    <a href="../projets/index.html">Projets</a>
+                    <a href="../contact.html">Contact</a>
+                </div>
+
+            </div>
+
+
+            <!-- Informations légales -->
+            <div class="footer-bottom">
+                <span>
+                    © 2026 · Flore Albert — Creative Portfolio
+                </span>
+
+                <span>
+                    Conçu avec curiosité &amp; créativité
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- =========================
+         FENÊTRE MODALE DES IMAGES
+    ========================== -->
+
+    <div class="modal">
+
+        <!-- Bouton de fermeture -->
+        <button class="modal-close" aria-label="Fermer">
+            ×
+        </button>
+
+        <!-- Image agrandie -->
+        <img src="" alt="Agrandissement">
+
+    </div>
+
+
+    <!-- =========================
+         SCRIPT JAVASCRIPT
+    ========================== -->
+
+    <script src="../static/main.js"></script>
+
+</body>
+
+</html>
